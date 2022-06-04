@@ -1,0 +1,5 @@
+body {
+    background-image: url(imgs/bg.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
