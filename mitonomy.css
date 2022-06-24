@@ -79,4 +79,7 @@ th, td {
     padding: 5px 20px;
 }
 
-    
+img[src^="imgs/home"] {
+    border-radius: 0%;
+    width: 15%;
+}  
