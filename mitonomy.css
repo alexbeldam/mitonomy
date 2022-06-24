@@ -68,7 +68,6 @@ div {
     background-color: rgba(255, 255, 255, 0.493);
     padding: 10px 20px;
     border-radius: 20px;
-    margin-top: 20px;
     clear: both;
 }
 
@@ -79,7 +78,7 @@ table {
     border-radius: 20px;
 }
 
-div:last-of-type, table {
+div, table {
     margin-bottom: 20px;
 }
 
