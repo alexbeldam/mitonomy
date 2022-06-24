@@ -6,6 +6,11 @@ body {
 }
 #links {
     background-color: transparent;
+    text-align: center;
+}
+#links img {
+    width: 140px;
+    padding: 0 10px; 
 }
 h1 {
     color: white;
@@ -14,33 +19,6 @@ p, table * {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
-.menu {
-    background-color: white;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.oba {
-    position: relative;
-    display: inline-block;
-    margin: 0 -10%;
-}
-.oba-child {
-    display: none;
-    background-color: rgb(255, 255, 255);
-    min-width: 200px;
-}
-.oba-child a {
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.oba:hover .oba-child {
-    display: block;
-} 
-img {
+img[src$="saturn.png"], img[src$="uranus.png"] {
     border-radius: 0;
 }
