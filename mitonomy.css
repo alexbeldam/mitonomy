@@ -81,5 +81,5 @@ th, td {
 
 img[src^="imgs/home"] {
     border-radius: 0%;
-    width: 15%;
+    width: 15px;
 }  
