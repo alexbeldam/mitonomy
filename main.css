@@ -8,7 +8,7 @@ body {
 #links {
     background-color: transparent;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #links img {
