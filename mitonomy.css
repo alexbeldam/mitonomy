@@ -87,7 +87,7 @@ th, td {
     padding: 5px 20px;
 }
 
-img[src^="imgs/home"], img[src^="imgs/botao"] {
+img[src^="imgs/home"] {
     border-radius: 0;
     width: 30px;
 }
