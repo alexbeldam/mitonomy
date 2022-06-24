@@ -4,21 +4,26 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #links {
     background-color: transparent;
     text-align: center;
 }
+
 #links img {
     width: 140px;
     padding: 0 10px; 
 }
+
 h1 {
     color: white;
 }
+
 p, table * {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
+
 img[src$="saturn.png"], img[src$="uranus.png"] {
     border-radius: 0;
 }
