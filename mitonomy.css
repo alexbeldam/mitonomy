@@ -72,6 +72,10 @@ div {
     clear: both;
 }
 
+div:last-of-type {
+    margin-bottom: 20px;
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
