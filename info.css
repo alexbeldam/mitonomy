@@ -1,1 +1,14 @@
+div {
+    margin: 20px 0;
+    display: flex;
+    align-content: center;
+}
 
+div p {
+    font-size: 20pt;
+    align-self: center;
+}
+
+img {
+    width: 250px;
+}
