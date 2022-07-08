@@ -1,8 +1,6 @@
 body {
     background-image: url(imgs/bg.jpeg);
     background-position: top left;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #links {
