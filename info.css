@@ -5,7 +5,7 @@ div:not(#mito) {
 }
 
 div:not(#mito) p {
-    font-size: 20pt;
+    font-size: 1.4vw;
     align-self: center;
 }
 
