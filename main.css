@@ -20,6 +20,6 @@ p, table {
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-img[src$="saturn.png"], img[src$="uranus.png"] {
+img[src*="ur"] {
     border-radius: 0;
 }

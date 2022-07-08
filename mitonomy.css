@@ -91,7 +91,7 @@ th, td {
     padding: 5px 20px;
 }
 
-img[src$="home.png"] {
+img[src*="home"] {
     border-radius: 0;
     width: 1.5vw;
 }
