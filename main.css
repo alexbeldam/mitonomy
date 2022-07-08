@@ -15,10 +15,6 @@ body {
     width: 140px;
 }
 
-h1 {
-    color: white;
-}
-
 p, table * {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
