@@ -7,6 +7,20 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    font-size: 1vw;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+h1:active {
+    position: relative;
+    right: 0.26vw;
+    bottom: 0.26vw;
 }
 
 h1, a {
@@ -15,11 +29,15 @@ h1, a {
 
 h2 {
     font-family: "Kaushan Script", cursive;
-    font-size: 35px;
+    font-size: 1.8vw;
 }
 
 a, p a {
     text-decoration: none;
+}
+
+p {
+    font-size: 1vw;
 }
 
 p a {
@@ -36,15 +54,6 @@ p a:hover, a:hover {
     text-decoration: underline;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-}
-
 .right {
     float: right;
     padding-left: 20px;
@@ -56,7 +65,7 @@ h1 {
 }
 
 img {
-    width: 175px;
+    width: 9.1vw;
     border-radius: 50%;
 }
 
@@ -67,6 +76,10 @@ div {
     clear: both;
 }
 
+div, table {
+    margin-bottom: 20px;
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
@@ -74,15 +87,11 @@ table {
     border-radius: 20px;
 }
 
-div, table {
-    margin-bottom: 20px;
-}
-
 th, td {
     padding: 5px 20px;
 }
 
-img[src^="imgs/home"] {
+img[src$="home.png"] {
     border-radius: 0;
-    width: 30px;
+    width: 1.5vw;
 }

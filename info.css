@@ -10,5 +10,6 @@ div:not(#mito) p {
 }
 
 div:not(#mito) img {
-    width: 250px;
+    width: 13vw;
+    height: 13vw;
 }
