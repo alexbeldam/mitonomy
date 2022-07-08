@@ -3,7 +3,7 @@
 
 body {
     background-image: linear-gradient(0deg, black, #1c1574, #302b7a,  #592985, #302b7a, #1c1574, black);
-    margin: 0% 10%;
+    margin: 0 10%;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -18,7 +18,7 @@ h2 {
     font-size: 35px;
 }
 
-a {
+a, p a {
     text-decoration: none;
 }
 
@@ -43,10 +43,6 @@ p {
 h1 {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-}
-
-.back {
-    text-align: right;
 }
 
 .right {
