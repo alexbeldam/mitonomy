@@ -1,14 +1,14 @@
-div {
+div:not(#mito) {
     margin: 20px 0;
     display: flex;
     align-content: center;
 }
 
-div p {
+div:not(#mito) p {
     font-size: 20pt;
     align-self: center;
 }
 
-img {
+div:not(#mito) img {
     width: 250px;
 }
