@@ -5,19 +5,74 @@ body {
 
 #links {
     background-color: transparent;
-    display: flex;
-    justify-content: space-evenly;
 }
 
-#links img {
-    width: 7.5vw;
+#links a {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 15vw;
+    height: 15vw;
+}
+
+#links a img {
+    position: absolute;
+    transition: opacity 500ms;
+    width: 100%;
+    height: 100%;
+}
+
+#links a img[alt*="planeta"] {
+    z-index: 2;
+}
+
+#links a img[src*="-p"] {
+    z-index: 1;
+}
+
+#links a:hover img[src*="-p"] {
+    opacity: 1;
+}
+
+#links a:hover img[alt*="planeta"], #links a img[src*="-p"] {
+    opacity:0;
+}
+
+img[src*="ur"]:not([src*="-p"]) {
+    border-radius: 0;
+}
+
+#venus {
+    right: 4%;
+}
+
+#jupiter {
+    top: 13vw;
+    left: 60%;
+}
+
+#saturno {
+    top: 23vw;
+    right: 52%;
+
+}
+
+#urano {
+    top: 34vw;
+    left: 30%;
+}
+
+#netuno {
+    top: 47vw;
+    right: 88%;
+}
+
+#plutao {
+    top: 45vw;
+    left: 80%;
 }
 
 p, table {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
-}
-
-img[src*="ur"] {
-    border-radius: 0;
 }
