@@ -13,3 +13,11 @@ div:not(#mito) img {
     width: 13vw;
     height: 13vw;
 }
+
+div#fontes {
+    display: block;
+}
+
+#nomia {
+    padding-top: 1vw;
+}
