@@ -15,11 +15,14 @@ p strong a {
     color: pink;
 }
 
-.sumiu {
-    background-color: transparent;
+section {
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 0.5vw 1vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
 }
 
-#links a {
+nav a {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -27,27 +30,27 @@ p strong a {
     height: 15vw;
 }
 
-#links a img {
+nav a img {
     position: absolute;
     transition: opacity 500ms;
     width: 100%;
     height: 100%;
 }
 
-#links a img[alt*="planeta"] {
+nav a img[alt*="planeta"] {
     z-index: 2;
 }
 
-#links a img[src*="-p"] {
+nav a img[src*="-p"] {
     z-index: 1;
 }
 
-#links a:hover img[src*="-p"] {
+nav a:hover img[src*="-p"] {
     opacity: 1;
 }
 
-#links a:hover img[alt*="planeta"], #links a img[src*="-p"] {
-    opacity:0;
+nav a:hover img[alt*="planeta"], nav a img[src*="-p"] {
+    opacity: 0;
 }
 
 img[src*="ur"]:not([src*="-p"]) {
@@ -55,8 +58,8 @@ img[src*="ur"]:not([src*="-p"]) {
 }
 
 #venus {
-   left: 40%;
-   top: 1vw;
+    left: 40%;
+    top: 1vw;
 }
 
 #jupiter {
@@ -77,14 +80,14 @@ img[src*="ur"]:not([src*="-p"]) {
 #netuno {
     top: 42vw;
     right: 92%;
-} 
+}
 
 p, table {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-#table {
+article {
     position: relative;
     bottom: 7vw;
 }
@@ -100,4 +103,89 @@ table {
 th, td {
     padding: 0.5vw 1vw;
     text-align: center;
+}
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    pointer-events: none;
+    transition: opacity 1s linear;
+    opacity: 1;
+    visibility: visible;
+}
+
+:not(.backdrop).desaparecido {
+    transition: opacity 1s linear;
+}
+
+.desaparecido {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.backdrop video {
+    width: 100%;
+}
+
+.backdrop.desaparecido+#unmute {
+    display: none;
+}
+
+#unmute {
+    position: absolute;
+    left: calc(50% - 0.75em);
+    top: calc(50% - 0.75em);
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    background-color: rgba(255, 255, 255, .15);
+    color: black;
+    font-size: 2.5rem;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+#unmute:hover {
+    color: white;
+}
+
+#unmute:active {
+    color: black;
+    transform: translate(1px, 1px);
+}
+
+#unmute:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 0 4px yellow;
+}
+
+#unmute:active:focus {
+    color: black;
+    border-color: currentColor;
+    box-shadow: none;
+}
+
+@media screen and (orientation: portrait) {
+
+    .backdrop, button {
+        transform: rotate(90deg);
+    }
+
+    .backdrop video {
+        position: absolute;
+        z-index: 20;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
 }
