@@ -7,7 +7,7 @@ p strong a {
     color: white;
 }
 
-#links {
+.sumiu {
     background-color: transparent;
 }
 
@@ -47,7 +47,8 @@ img[src*="ur"]:not([src*="-p"]) {
 }
 
 #venus {
-   right: 4%;
+   left: 40%;
+   top: 1vw;
 }
 
 #jupiter {
@@ -56,27 +57,39 @@ img[src*="ur"]:not([src*="-p"]) {
 }
 
 #saturno {
-    top: 23vw;
-    right: 52%;
-
+    top: 40vw;
+    left: 50%;
 }
 
 #urano {
-    top: 34vw;
-    left: 30%;
+    top: 55vw;
+    right: 20%;
 }
 
 #netuno {
-    top: 47vw;
-    right: 88%;
-}
-
-#plutao {
-    top: 45vw;
-    left: 80%;
-}
+    top: 42vw;
+    right: 92%;
+} 
 
 p, table {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#table {
+    position: relative;
+    bottom: 7vw;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 1vw;
+    width: fit-content;
+}
+
+th, td {
+    padding: 0.5vw 1vw;
+    text-align: center;
 }
