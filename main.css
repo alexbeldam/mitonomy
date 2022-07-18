@@ -3,6 +3,10 @@ body {
     background-position: top left;
 }
 
+p strong a {
+    color: white;
+}
+
 #links {
     background-color: transparent;
 }
@@ -43,7 +47,7 @@ img[src*="ur"]:not([src*="-p"]) {
 }
 
 #venus {
-    right: 4%;
+   right: 4%;
 }
 
 #jupiter {
