@@ -21,3 +21,7 @@ div#fontes {
 #nomia {
     padding-top: 1vw;
 }
+
+div > ul {
+    display: flex;
+}
