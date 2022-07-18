@@ -3,8 +3,16 @@ body {
     background-position: top left;
 }
 
+p strong a:visited {
+    color: whitesmoke;
+}
+
+p strong a:hover {
+    color: lightblue;
+}
+
 p strong a {
-    color: white;
+    color: pink;
 }
 
 .sumiu {
