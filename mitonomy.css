@@ -76,20 +76,8 @@ div {
     clear: both;
 }
 
-table {
-    border-collapse: collapse;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.493);
-    border-radius: 1vw;
-    width: 60vw;
-}
-
-div, table {
+div {
     margin-bottom: 1vw;
-}
-
-th, td {
-    padding: 0.5vw 1vw;
 }
 
 img[src*="home"] {
