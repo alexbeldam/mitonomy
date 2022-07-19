@@ -136,7 +136,7 @@ main.desaparecido {
 }
 
 #unmute {
-    position: absolute;
+    position: fixed;
     left: calc(50% - 0.75em);
     top: calc(50% - 0.75em);
     border-radius: 50%;
