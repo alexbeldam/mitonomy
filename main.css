@@ -15,13 +15,6 @@ p strong a {
     color: pink;
 }
 
-section {
-    background-color: rgba(255, 255, 255, 0.493);
-    padding: 0.5vw 1vw;
-    border-radius: 1vw;
-    margin-bottom: 1vw;
-}
-
 nav a {
     display: inline-block;
     position: relative;
@@ -49,7 +42,7 @@ nav a:hover img[src*="-p"] {
     opacity: 1;
 }
 
-nav a:hover img[alt*="planeta"], nav a img[src*="-p"] {
+nav a:hover img[alt*="ícone"], nav a img[src*="-p"] {
     opacity: 0;
 }
 
@@ -118,7 +111,7 @@ th, td {
     visibility: visible;
 }
 
-:not(.backdrop).desaparecido {
+main.desaparecido {
     transition: opacity 1s linear;
 }
 
