@@ -75,6 +75,13 @@ img[src*="ur"]:not([src*="-p"]) {
     right: 92%;
 }
 
+a[href^="devs"] {
+    width: 13vw;
+    height: 13vw;
+    left: 340px;
+    top: 66vw ;
+}
+
 p, table {
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
