@@ -1,8 +1,14 @@
-<h1 align="center" style="font-weight: bold;">Mitonomy ✨</h1>
+<h1 align="center" style="font-weight: bold;">Mitonomy 🪐</h1>
 
 <p align="center">
- <a href="#tech">Tecnologias</a> • 
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
+<p align="center">
  <a href="#about">Sobre</a> • 
+ <a href="#layout">Leiaute</a> • 
  <a href="#colab">Colaboradores</a>
 </p>
 
@@ -14,20 +20,17 @@
      <a href="https://alexbeldam.github.io/mitonomy/">📱 Visite o site</a>
 </p>
 
-<h2 id="layout">🎨 Layout</h2>
+---
+
+<h2 id="layout">🖼️ Leiaute</h2>
 
 <p align="center">
     <img src="imgs/pagina.png" alt="Imagem Exemplo" width="400px">
 </p>
 
-<h2 id="tech">💻 Tecnologias</h2>
+<h2 id="about">📖 Sobre</h2>
 
-- HTML5  
-- CSS3
-
-<h2 id="about">📌 Sobre</h2>
-
-Site feito para o trabalho TP1 da matéria de Laboratório de Programação para Web, usando HTML e CSS puro.  
+Mitonomia é um site que explora os laços entre mitologia e astronomia, desenvolvido como projeto de estudo para a disciplina de Laboratório de Programação para Web.
 
 O tema "mitonomia" representa a fusão entre mitologia e astronomia — duas áreas naturalmente conectadas. Desde a antiguidade, civilizações deram nomes mitológicos a constelações, planetas e fenômenos celestes, unindo ciência e narrativa em uma mesma tentativa de entender o universo. Este site apresenta de forma simples essa relação simbiótica entre os mitos greco-romanos e o céu que nos cerca.
 
@@ -76,7 +79,7 @@ Um grande obrigado a todas as pessoas que contribuíram para este projeto.
   </tr>
 </table>
 
-<h2 id="colab">⭐ Menção Honrosa</h2>
+<h2 id="honra">⭐ Menção Honrosa</h2>
 
 E um grande obrigado ao professor que nos ensinou tudo e mais um pouco!
 
@@ -90,3 +93,8 @@ E um grande obrigado ao professor que nos ensinou tudo e mais um pouco!
     </td>
   </tr>
 </table>
+
+<h2 id="tp1">🖥️ Fiomoria</h2>
+
+O trabalho feito antes deste pode ser encontrado nesse respositório:<br>
+👉 **[https://github.com/alexbeldam/fiomoria](https://github.com/alexbeldam/fiomoria)**
