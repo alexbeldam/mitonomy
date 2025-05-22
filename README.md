@@ -94,7 +94,7 @@ E um grande obrigado ao professor que nos ensinou tudo e mais um pouco!
   </tr>
 </table>
 
-<h2 id="tp1">🖥️ Fiomoria</h2>
+<h2 id="tp2">🖥️ Fiomoria</h2>
 
-O trabalho feito antes deste pode ser encontrado nesse respositório:<br>
+O trabalho feito depois deste pode ser encontrado nesse respositório:<br>
 👉 **[https://github.com/alexbeldam/fiomoria](https://github.com/alexbeldam/fiomoria)**
